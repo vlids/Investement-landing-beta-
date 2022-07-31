@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto' , sans-serif;
+
+}
+.header{
+    height: 150px;
+    padding: 2em;
+    font-size: 1.5em;
+    background-image: url(../imgs/fondo.jpg);
+    background-size: cover;
+    background-position: right bottom;
+}
+.header h1{
+    margin: 0em;
+    font-weight: 300;
+    color: white;
+}
+.header p{
+    color: white;
+    margin-top: 0em;
+}
+.products{
+    width: 60%;
+    margin: center;
+}
+.products td{
+    width: 50%;
+    padding: 0.5em;
+}
+.products img{
+    width: 80%;
+    border: solid rgb(95, 95, 96)
+}
+.products p{
+    font-size: large;
+    font-weight: 370;
+    line-height: 0.5em;
+}
+.sombra{
+    text-shadow: 0.3em 0.3em 0.5em rgb(155, 155, 155);
+}
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(36, 33, 55);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-weight: 800;
+    margin: 0em;
+}
